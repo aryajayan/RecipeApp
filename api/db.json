@@ -1,0 +1,53 @@
+{
+  "recipes": [
+    {
+      "id": 11,
+      "name": "Paneer Butter Masala",
+      "imagePath": "https://i0.wp.com/vegecravings.com/wp-content/uploads/2017/04/paneer-butter-masala-recipe-step-by-step-instructions.jpg?fit=2592%2C1944&quality=65&strip=all&ssl=1",
+      "description": "this is a test recipe",
+      "ingredients": [
+        {
+          "name": "Paneer",
+          "amount": "2"
+        },
+        {
+          "name": "Tomato",
+          "amount": 4
+        },
+        {
+          "name": "Onion",
+          "amount": "4"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Grilled Chicken",
+      "imagePath": "https://simply-delicious-food.com/wp-content/uploads/2019/09/Indian-spiced-roast-chicken-1.jpg",
+      "description": "this is a test recipe",
+      "ingredients": [
+        {
+          "name": "Onion",
+          "amount": 4
+        },
+        {
+          "id": -1,
+          "name": "Chicken",
+          "amount": "1"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "chicken",
+      "amount": "2"
+    },
+    {
+      "name": "Onion",
+      "amount": 4,
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+    <app-recipe-list></app-recipe-list>
+  </div>
+  <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+    <router-outlet></router-outlet>
+    <!-- <app-recipe-detail [recipe]="selectedRecipe"
+     *ngIf="selectedRecipe && !allowEdit"
+     (editClicked)="editClickedParent()">
+    </app-recipe-detail>
+    <app-recipe-edit [recipeId]="selectedRecipe.id"
+    *ngIf="selectedRecipe && allowEdit"
+    (cancelEvent)="cancelClickedOnEdit()"
+    (saveEvent)="onSaveEdittedRecipe($event)"></app-recipe-edit>
+    <div *ngIf="!selectedRecipe" >
+      <p>Please select a recipe!</p>
+    </div> -->
+  </div>
+</div>
